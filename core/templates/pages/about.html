@@ -1,0 +1,49 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} About Us {% endblock title %}
+
+{% block content %}
+
+<style>
+img {
+  border-radius: 50%;
+}
+</style>
+
+<style>
+  img {
+    display: block;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  </style>
+  
+  
+<h1 style="text-align:center;" >Hello there, This Page is about us</h1>
+
+<div class="col-lg-20 col-mid-3">
+<img src="/static/assets/img/Harshita.jpeg" alt="Harshita's Photo" class="center" style="width:200px">
+</div>
+&nbsp
+<h3 style="text-align:center;">My name is Harshita Pal and I'm pursuing BCA from jccc college, and i made this project for COVID awareness among people and number of vaccine doses administered and i made this project using HTML CSS javascript</h3>
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+
+<div class="col-lg-20 col-mid-3">
+  <img src="/static/assets/img/Snegdha.jpeg" alt="Harshita's Photo" class="center" style="width:140px">
+  </div>
+
+  &nbsp
+<h3 style="text-align:center;">Hey there, my name is Snegdha Kanojia and I am also pursuing BCA from JCCC college and I helped my colleague Harshita with building some frontend environment ,,, and helped her with some HTML tags</h3>
+&nbsp
+&nbsp
+&nbsp
+&nbsp
+
+<div class="container-fluid pt-6 bg-secondary">
+{% include "includes/footer.html" %}
+</div>
+
+{% endblock content %}
